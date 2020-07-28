@@ -1,0 +1,107 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-dark .navbar-brand {
+    font-family: cursive;
+    color: white;
+}
+#textarea1{
+    width: 80vw;
+    display: block;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    height: 20vh;
+}
+#searchtxt{
+  height: 30px;
+  width: 90px;
+}
+.btn1{
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn2{
+  font-size: 1vw;
+  margin-bottom: 20px;
+  width: 50%;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  margin: 10px auto ;
+  font-weight: bold;
+  color: white;
+}
+h4{
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    font-family: cursive;
+    font-size: 2vw;
+}
+hr{
+    width: 60%;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    font-size: 4vw;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+.row {
+    display: block;
+    position: relative;
+    margin: auto;
+}
+  .card h3{
+    font-size: 2vw;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    font-size: 1vw;
+  }
+  .grid{
+      row-gap: 20px;
+      padding: 0px 20px;
+      align-items: center;
+      display: block;
+      position: relative;
+      margin: auto;
+  }
+  .form-group h1{
+    margin: 20px auto;
+    font-size: 3vw;
+    font-family: cursive;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  @media screen and (max-width: 300px) {
+    h1{
+      font-size: 20px !important;
+    }
+  }
+
